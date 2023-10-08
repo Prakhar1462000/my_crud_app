@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 10px 0;
+}
+
+div.form_div{
+    width: 80%;
+    padding: 20px 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid;
+}
+
+div.form_div input {
+   border: 1px solid;
+   outline: 0;
+   padding: 10px 15px;
+}
+div.form_div button {
+    padding: 5px 15px;
+    outline: none;
+    border: none;
+    background: rgb(12,118,12);
+    color: #fff;
+    border: 1px solid rgb(12,118,12);
+    transition: .5s ease-in-out; 
+}
+a,button{
+   cursor: pointer;
+}
+
+div.form_div button:hover{
+    background: transparent;
+    color: rgb(12, 118, 12);
+}
+
+
+h1{
+    padding: 10px 0;
+}
+
+table{
+    width: 80%;
+    margin: 0 auto;
+}
+
+table tr th {
+     color: rgb(1, 25, 31);
+     padding: 10px;
+}
+table tr td{
+    padding: 10px;
+}
+table tr a.u_btn{
+    padding: 5px 10px;
+    border: 1px solid #f0ad4e;
+    background: #f0ad4e;
+    color: #ffff;
+    transition: .5s ease-in-out;
+}
+
+table tr a.u_btn:hover{
+   background-color: transparent;
+   color: #f0ad4e;
+}
+
+table tr a.d_btn{
+     padding: 5px 10px;
+     border: 1px solid rgba(210, 13, 13, 0.903);
+     background-color:  rgba(210, 13, 13, 0.903);
+     font-size: 16px;
+     color: #fff;
+    transition: .5s ease-in-out;
+
+}
+table tr a.d_btn:hover{
+    background-color: transparent;
+    color: rgba(210, 13, 13, 0.903);
+}
+
+.alert_s{
+    font-size: 25px;
+    color: green;
+}
+
+.d_alert{
+    font-size: 25px;
+    color: rgba(210, 13, 13, 0.903);
+
+}
+
+.update_form{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+     display: none;
+}
